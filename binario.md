@@ -8,4 +8,5 @@ El nuemero 42 en binario se escribe como:
 ## conflicto
 
 no lo quiero volver a hacer
+Esta es la buena :)
 
