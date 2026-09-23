@@ -65,3 +65,20 @@ El <<< indica donde inicia todo lo que modificamos y provoco el conflicto y el =
 El >>> indica donde terminan las modificaciones y el ===== aepara las modificaciones que cada uno hizo
 ¿Por que Git no pudo decidir automáticamente que contenido conservar?
 Porque no habia una jerarquia de cual era mas importante para conservar# icc-practica01-git.1
+
+## Historia real
+¿En que se parece al dibujo inicial?
+Solo se parecen en que las ramas salieron
+ 
+¿En que es diferente?
+En que al las ramas salian de main y regresaban y asi con todas las ramas
+
+¿Que partes del historial no habían anticipado?
+No consideramos las demas ramas de conflicto y que en merge se iban a juntar las ramas y los commits que ibamos a hacer incluyendo los que fueron por errores
+
+¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
+Que cuando integramos las ramas iban a regresar a main y que los merge provocaban eso 
+
+
+
+
