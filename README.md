@@ -79,6 +79,10 @@ No consideramos las demas ramas de conflicto y que en merge se iban a juntar las
 ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
 Que cuando integramos las ramas iban a regresar a main y que los merge provocaban eso 
 
+## pregunta
+¿Que ventaja tiene utilizar el nombre v1.0 para identificar este punto del
+historial en lugar de utilizar solamente el hash del commit?
 
+Es mas facil de recordar y reconocer, permite identificar una version mas especifica del proyecto ademas de poder encontrar el punto en el historial
 
 
