@@ -12,5 +12,9 @@ El numero 13 es decimal y se escribe como:
 
 ## Descripcion
 
+
 El sistema decimal utiliza 10 simbolos distintos
+
+El sistema decimal es un sistema posicional de base diez.
+
 
