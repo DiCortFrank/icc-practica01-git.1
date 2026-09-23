@@ -86,3 +86,43 @@ historial en lugar de utilizar solamente el hash del commit?
 Es mas facil de recordar y reconocer, permite identificar una version mas especifica del proyecto ademas de poder encontrar el punto en el historial
 
 
+## Reflexion final
+
+
+¿Que información almacena un commit?
+registra una veersion del proyecto, tanto quien lo hizo el mensaje y algunos de sus commits anteiores
+¿Que diferencia existe entre un repositorio local y un repositorio remoto?
+que el local es de la computadora unicamente para la persona que lo utiliza y el remoto es de la nube.
+¿Que ocurrió cuando modificaron archivos diferentes?
+No paso nada , no hay conflicto solo se actualizaron.
+¿Que ocurrió cuando modificaron la misma región de un archivo?
+Aparecio el conflicto
+¿Que diferencia existe entre commit y push?
+que el commit registra los cambios mientras que el push los envia al remoto.
+¿Que función tuvo pull durante la practica?
+ayudaba a actualizar los cambios nuevos del remoto a tu computadora(al local)
+¿Por que un push puede ser rechazado aunque no exista un conflicto de contenido?
+Porque el remoto contiene commits que todavia no hemos integrado.
+¿Que representa una rama?
+Una vertiente de main donde se pueden hacer commits siguiendo su propia linea.
+¿Que indica HEAD?
+Es un puntero que indica que rama estas.
+¿Que hace merge?
+integra ambas lineas al main.
+¿Por que Git pudo integrar algunos cambios automáticamente y otros no?
+Por que habia algunos que estaban en el mismo archivo y no sabia si sobreescribirlo o borrarlos.
+¿Que representan los marcadores «««<, ======= y »»»>?
+Encerraban lo que habiamos modificado y los iguales separaban lo que cada uno habia  modificado parecido a una linea
+¿Que ventaja proporciona un tag?
+Permite marcar un commit como punto especifico en la historia del repositorio.
+¿Como cambio su interpretación de los diagramas de historial después de utilizar git log
+–graph –oneline –all?
+Se vio mas ordenado y que las ramas siempre se unen a main al final.
+
+
+investigacion
+
+¿Por que ambos historiales pueden representar cambios semejantes y, sin embargo,
+tener una estructura diferente?
+
+merge y rebase producen el mismo contenido final porque aplican los mismos cambios, pero merge conserva el historial real con un commit de dos padres (grafo ramificado), mientras que rebase reescribe los commits sobre otra base generando un historial lineal con nuevos hashes; por eso el código es igual pero la estructura del historial es diferente.
